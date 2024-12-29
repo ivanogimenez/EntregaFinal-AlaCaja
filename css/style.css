@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+        font-family: "Dosis", sans-serif;
+        color-scheme: rgb(214, 89, 36);
+        
+        font-weight: 100;
+        font-style: normal;
+
+}
+header{
+    width: 80px; 
+    height: 80px; 
+    margin-right: 30px;
+    background-color: rgba(77, 194, 215, 0.2);
+}
+img.header.body{
+    background-color: (0.1, 0.1, 0.1, 100%);
+    
+}
+#carouselExample {
+    max-width: 100%; /* Abarca todo el ancho de la pantalla */
+    height: 10px; /* Altura reducida */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    overflow: hidden; /* Asegura que las imágenes no se salgan del contenedor */
+}
+
+#carouselExample .carousel-inner img {
+    height: 20px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Asegura que las imágenes llenen el espacio sin distorsionarse */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 24px; /* Reduce el tamaño de los iconos de navegación */
+    height: 24px;
+    background-size: 50px; /* Ajusta el tamaño de los iconos */
+}
+.footer-copyright {
+    background-color: rgba(6, 193, 226, 0.2);
+    text-align: center;
+    padding: 1rem;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+}
+:root {
+    --petroleo-oscuro: #004d47;
+    --petroleo-claro: #2a7b73;
+    --petroleo-suave: #76a9a4;
+    --texto-claro: #960404;
+    --animacion-color: #ffcc00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--petroleo-oscuro);
+    color: var(--texto-claro);
+}
+
+nav.navbar {
+    background-color: var(--petroleo-claro);
+    border-bottom: 3px solid var(--petroleo-suave);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+}
+
+nav.navbar a.nav-link {
+    color: var(--texto-claro);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav.navbar a.nav-link:hover {
+    color: var(--animacion-color);
+    transform: scale(1.1);
+}
+
+nav.navbar a.nav-link.active {
+    color: var(--animacion-color);
+}
+
+nav.navbar .navbar-brand {
+    color: var(--animacion-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav.navbar .navbar-brand:hover {
+    color: var(--texto-claro);
+}
+
+footer {
+    background-color: var(--petroleo-oscuro);
+    color: var(--texto-claro);
+}
+
+footer a {
+    color: var(--texto-claro);
+}
+
+footer a:hover {
+    color: var(--petroleo-suave);
+}
